@@ -117,7 +117,7 @@ body
     margin: 1rem;
 }
 
-/* 
+
 @media screen and (min-width:380px)
 {
     .container__card
@@ -125,4 +125,4 @@ body
         width: 220px;
         height: 330px;
     }
-} */
+}
