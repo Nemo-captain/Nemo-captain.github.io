@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body
+{
+    font-size: 20px;
+    background-image: url(/home/ruu/Desktop/Nemo/Nemo-captain.github.io/Images/Cielo_de_dia.jpg);
+    background-size: cover;
+}
+
+/*
+    *Maestro, intenta hacer que cuando se seleccione un "Form-item" no se ponga el borde blanco...
+*/
+
+.container
+{
+    background: transparent;
+    padding: 1rem;
+    margin: 140px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: .9rem 1rem 1rem rgba(0,0,0,0.4);
+
+}
+
+
+#titulo
+{
+    margin: 1rem;
+}
+
+#dia
+{
+    font-weight: 600;
+    font-size: 16px;
+    min-height: 50px;
+    min-width: 270px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-align: center;
+    height: 30px;
+}
+
+#boton
+{
+    min-height: 30px;
+    min-width: 130px;
+    padding: .3rem;
+    background-color: rgba(70,200,255,0.5);
+    border: none;
+    border-radius: 8px;
+}
+
+.form-item
+{
+    outline: none;
+    margin: .4rem;
+}
+
+.formulario
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+#resultado
+{
+    text-align: center;
+    margin: 2rem;
+    height: 50px;
+}
+
